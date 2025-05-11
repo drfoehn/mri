@@ -1,0 +1,486 @@
+[
+    {
+        "abbr": "ACS",
+        "meaning": "Acute coronary syndrome"
+    },
+    {
+        "abbr": "AFB",
+        "meaning": "Acid-fast bacilli"
+    },
+    {
+        "abbr": "AKI",
+        "meaning": "Acute kidney injury"
+    },
+    {
+        "abbr": "ALP",
+        "meaning": "Alkaline phosphatase"
+    },
+    {
+        "abbr": "AMPA",
+        "meaning": "2-amino-3-(5-methyl-3-oxo-1,2-oxazol-4-yl) propanoic acid"
+    },
+    {
+        "abbr": "ANCA",
+        "meaning": "Anti-neutrophil cytoplasmic antibody"
+    },
+    {
+        "abbr": "Anti-HBc ",
+        "meaning": "Hepatitis B total core antibody"
+    },
+    {
+        "abbr": "Anti-HBs ",
+        "meaning": "Hepatitis B surface antibody"
+    },
+    {
+        "abbr": "Anti-HCV",
+        "meaning": "Hepatitis C antibody"
+    },
+    {
+        "abbr": "APA",
+        "meaning": "Anti-pneumococcal antibody"
+    },
+    {
+        "abbr": "aPL",
+        "meaning": "Antiphospholipid"
+    },
+    {
+        "abbr": "APTT",
+        "meaning": "Activated partial thromboplastin time "
+    },
+    {
+        "abbr": "ASO",
+        "meaning": "Antistreptolysin O"
+    },
+    {
+        "abbr": "ATPOab",
+        "meaning": "Anti-thyroid peroxidase antibodies"
+    },
+    {
+        "abbr": "BBV",
+        "meaning": "Blood-borne virus"
+    },
+    {
+        "abbr": "BCSH",
+        "meaning": "British Committee for Standards in Haematology"
+    },
+    {
+        "abbr": "BDG",
+        "meaning": "b-1-3-D-glucan"
+    },
+    {
+        "abbr": "BMI",
+        "meaning": "Body mass index"
+    },
+    {
+        "abbr": "BNP",
+        "meaning": "B‑type natriuretic peptide"
+    },
+    {
+        "abbr": "C3",
+        "meaning": "Complement component C3"
+    },
+    {
+        "abbr": "C4",
+        "meaning": "Complement component C4"
+    },
+    {
+        "abbr": "CA15.3",
+        "meaning": "Carbohydrate antigen 15.3"
+    },
+    {
+        "abbr": "CA19.9",
+        "meaning": "Carbohydrate antigen 19.9"
+    },
+    {
+        "abbr": "CCP",
+        "meaning": "Cyclic citrullinated peptide antibody"
+    },
+    {
+        "abbr": "CEA",
+        "meaning": "Carcinoembryonic antigen"
+    },
+    {
+        "abbr": "CFA",
+        "meaning": "Coagulation factor assay"
+    },
+    {
+        "abbr": "CFT",
+        "meaning": "Complement fixation test"
+    },
+    {
+        "abbr": "CG",
+        "meaning": "Clinical Guideline"
+    },
+    {
+        "abbr": "CKD",
+        "meaning": "Chronic kidney disease"
+    },
+    {
+        "abbr": "CRP",
+        "meaning": "C-reactive protein"
+    },
+    {
+        "abbr": "CS",
+        "meaning": "Clotting screen"
+    },
+    {
+        "abbr": "CSF",
+        "meaning": "Cerebrospinal fluid"
+    },
+    {
+        "abbr": "DIF",
+        "meaning": "Direct immunofluorescence"
+    },
+    {
+        "abbr": "EASL",
+        "meaning": "European Association of the Study of the Liver"
+    },
+    {
+        "abbr": "ED",
+        "meaning": "Exposure day"
+    },
+    {
+        "abbr": "eGFR",
+        "meaning": "Estimated glomerular filtration rate"
+    },
+    {
+        "abbr": "eGFR-EPI",
+        "meaning": "eGFR according to CKD Epidemiology Collaboration equation"
+    },
+    {
+        "abbr": "ENA",
+        "meaning": "Extractable nuclear antigen"
+    },
+    {
+        "abbr": "ESR",
+        "meaning": "Erythrocyte sedimentation rate"
+    },
+    {
+        "abbr": "FSH",
+        "meaning": "Follicle stimulating hormone"
+    },
+    {
+        "abbr": "FBC",
+        "meaning": "Full blood count"
+    },
+    {
+        "abbr": "FMH",
+        "meaning": "Fetomaternal haemorrhage"
+    },
+    {
+        "abbr": "fT3",
+        "meaning": "Free triiodothyronine"
+    },
+    {
+        "abbr": "fT4",
+        "meaning": "Free thyroxine"
+    },
+    {
+        "abbr": "GAD65",
+        "meaning": "Glutamic acid decarboxylase antibody"
+    },
+    {
+        "abbr": "GAIN",
+        "meaning": "Guidelines and Audit Implementation Network"
+    },
+    {
+        "abbr": "GC",
+        "meaning": "Neisseria gonorrhoeae "
+    },
+    {
+        "abbr": "GDH",
+        "meaning": "Glutamate dehydrogenase"
+    },
+    {
+        "abbr": "GGT",
+        "meaning": "Gamma-glutamyltransferase"
+    },
+    {
+        "abbr": "GM",
+        "meaning": "Galactomannan"
+    },
+    {
+        "abbr": "GPC",
+        "meaning": "Gastric parietal cell antibody"
+    },
+    {
+        "abbr": "Hb",
+        "meaning": "Haemoglobin"
+    },
+    {
+        "abbr": "HbA1c",
+        "meaning": "Haemoglobin A1c"
+    },
+    {
+        "abbr": "HBsAg ",
+        "meaning": "Hepatitis B surface antigen"
+    },
+    {
+        "abbr": "HBV",
+        "meaning": "Hepatitis B virus"
+    },
+    {
+        "abbr": "HCC",
+        "meaning": "Hepatocellular carcinoma"
+    },
+    {
+        "abbr": "hCG",
+        "meaning": "Human chorionic gonadotropin"
+    },
+    {
+        "abbr": "HCV",
+        "meaning": "Hepatitis C virus"
+    },
+    {
+        "abbr": "HCV RNA PCR",
+        "meaning": "Hepatitis C RNA PCR"
+    },
+    {
+        "abbr": "HD",
+        "meaning": "Haemodialysis"
+    },
+    {
+        "abbr": "HDL",
+        "meaning": "High-density lipoprotein"
+    },
+    {
+        "abbr": "Hib",
+        "meaning": "Haemophilus influenza type b"
+    },
+    {
+        "abbr": "HIV",
+        "meaning": "Human immunodeficiency virus"
+    },
+    {
+        "abbr": "HIV Ag/Ab",
+        "meaning": "Human immunodeficiency virus antigen/antibody "
+    },
+    {
+        "abbr": "HRT",
+        "meaning": "Hormone replacement therapy"
+    },
+    {
+        "abbr": "IA",
+        "meaning": "Invasive aspergillosis"
+    },
+    {
+        "abbr": "Ig",
+        "meaning": "Immunoglobulin"
+    },
+    {
+        "abbr": "IGF-1 ",
+        "meaning": "Insulin-like growth factor 1"
+    },
+    {
+        "abbr": "IHD",
+        "meaning": "Ischaemic heart disease"
+    },
+    {
+        "abbr": "INR",
+        "meaning": "International normalised ratio"
+    },
+    {
+        "abbr": "ITT",
+        "meaning": "Immune tolerance therapy"
+    },
+    {
+        "abbr": "ITU",
+        "meaning": "Intensive treatment unit"
+    },
+    {
+        "abbr": "IUCD",
+        "meaning": "Intrauterine contraceptive device"
+    },
+    {
+        "abbr": "IV",
+        "meaning": "Intravenous"
+    },
+    {
+        "abbr": "IVF",
+        "meaning": "In vitro fertilisation"
+    },
+    {
+        "abbr": "LA",
+        "meaning": "Lupus anticoagulant"
+    },
+    {
+        "abbr": "LCMS ",
+        "meaning": "Liquid chromatography mass spectrometry"
+    },
+    {
+        "abbr": "LFT",
+        "meaning": "Liver function test"
+    },
+    {
+        "abbr": "LMWH",
+        "meaning": "Low-molecular-weight heparin"
+    },
+    {
+        "abbr": "MAG",
+        "meaning": "Myelin-associated glycoprotein"
+    },
+    {
+        "abbr": "MBD",
+        "meaning": "Mineral bone disease"
+    },
+    {
+        "abbr": "MDRD",
+        "meaning": "Modification of diet in renal disease"
+    },
+    {
+        "abbr": "MGUS",
+        "meaning": "Monoclonal gammopathy of undetermined significance"
+    },
+    {
+        "abbr": "MOG",
+        "meaning": "Myelin oligodendrocyte"
+    },
+    {
+        "abbr": "MPO",
+        "meaning": "Myeloperoxidase antibodies"
+    },
+    {
+        "abbr": "MRI",
+        "meaning": "Minimum retesting interval"
+    },
+    {
+        "abbr": "MRSA",
+        "meaning": "Methicillin-resistant Staphylococcus aureus"
+    },
+    {
+        "abbr": "MTC ",
+        "meaning": "Medullary thyroid carcinoma"
+    },
+    {
+        "abbr": "NAAT",
+        "meaning": "Nucleic acid amplification test"
+    },
+    {
+        "abbr": "NICE",
+        "meaning": "National Institute for Health and Care Excellence"
+    },
+    {
+        "abbr": "NMDA",
+        "meaning": "N-methyl-D-aspartate"
+    },
+    {
+        "abbr": "NMO",
+        "meaning": "Neuromyelitis optica"
+    },
+    {
+        "abbr": "NT-ProBNP",
+        "meaning": "N‑terminal pro‑B‑type natriuretic peptide"
+    },
+    {
+        "abbr": "OGTT",
+        "meaning": "Oral glucose tolerance test"
+    },
+    {
+        "abbr": "OH",
+        "meaning": "Occupational Health"
+    },
+    {
+        "abbr": "PBLC",
+        "meaning": "Peripheral blood lymphocyte cells"
+    },
+    {
+        "abbr": "PCC",
+        "meaning": "Prothrombin complex concentrate"
+    },
+    {
+        "abbr": "PD",
+        "meaning": "Peritoneal dialysis"
+    },
+    {
+        "abbr": "Plt",
+        "meaning": "Platelets"
+    },
+    {
+        "abbr": "PEP",
+        "meaning": "Post-exposure prophylaxis"
+    },
+    {
+        "abbr": "PR3",
+        "meaning": "Proteinase 3 antibodies"
+    },
+    {
+        "abbr": "PSA",
+        "meaning": "Prostate-specific antigen"
+    },
+    {
+        "abbr": "PT",
+        "meaning": "Prothrombin time"
+    },
+    {
+        "abbr": "PTH",
+        "meaning": "Parathyroid hormone"
+    },
+    {
+        "abbr": "RCPath",
+        "meaning": "The Royal College of Pathologists"
+    },
+    {
+        "abbr": "RPR",
+        "meaning": "Rapid plasma regain"
+    },
+    {
+        "abbr": "SAC",
+        "meaning": "Specialty Advisory Committee of the RCPath"
+    },
+    {
+        "abbr": "SIGN",
+        "meaning": "Scottish Intercollegiate Guidelines Network"
+    },
+    {
+        "abbr": "TB IFN",
+        "meaning": "Tuberculosis interferon"
+    },
+    {
+        "abbr": "TFT",
+        "meaning": "Thyroid function tests"
+    },
+    {
+        "abbr": "Tg",
+        "meaning": "Thyroglobulin"
+    },
+    {
+        "abbr": "TgAb",
+        "meaning": "Tg autoantibodies"
+    },
+    {
+        "abbr": "tIgE",
+        "meaning": "Total IgE"
+    },
+    {
+        "abbr": "TPN",
+        "meaning": "Total parenteral nutrition"
+    },
+    {
+        "abbr": "TSH",
+        "meaning": "Thyroid stimulating hormone"
+    },
+    {
+        "abbr": "tTG",
+        "meaning": "Tissue transglutaminase"
+    },
+    {
+        "abbr": "U&E",
+        "meaning": "Urea and electrolytes"
+    },
+    {
+        "abbr": "VGCC",
+        "meaning": "Voltage-gated calcium channel"
+    },
+    {
+        "abbr": "VGKC",
+        "meaning": "Voltage-gated potassium channel"
+    },
+    {
+        "abbr": "VKA",
+        "meaning": "Vitamin K antagonist"
+    },
+    {
+        "abbr": "WCC",
+        "meaning": "White cell count"
+    }
+]
