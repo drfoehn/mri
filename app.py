@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import json
 import os
 from markupsafe import Markup
+import re
 
 app = Flask(__name__)
 
@@ -25,12 +26,22 @@ def index():
     selected_subsection = request.form.get('subsection') if request.method == 'POST' else ''
     search_text = request.form.get('search_text', '').strip() if request.method == 'POST' else ''
 
-    if request.method == 'POST':
-        results = [entry for entry in data
+    if request.method == 'POST' and (selected_section or selected_chapter or selected_subsection or search_text):
+        filtered_results = [entry for entry in data
                    if (not selected_section or entry.get('Section', '') == selected_section)
-                   and (not selected_chapter or entry['chapter'] == selected_chapter)
-                   and (not selected_subsection or entry['subsection'] == selected_subsection)
-                   and (not search_text or search_text.lower() in entry['clinical_situation'].lower())]
+                   and (not selected_chapter or entry.get('chapter', '') == selected_chapter)
+                   and (not selected_subsection or entry.get('subsection', '') == selected_subsection)
+                   and (not search_text or re.search(search_text, entry['clinical_situation'], re.IGNORECASE))]
+        
+        if search_text:
+            for entry in filtered_results:
+                # Create a copy to avoid modifying the original data
+                new_entry = entry.copy()
+                # Highlight the search term
+                new_entry['clinical_situation'] = re.sub(f'({re.escape(search_text)})', r'<mark>\1</mark>', new_entry['clinical_situation'], flags=re.IGNORECASE)
+                results.append(new_entry)
+        else:
+            results = filtered_results
 
     return render_template('index.html',
                            sections=sections,

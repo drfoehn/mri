@@ -78,7 +78,7 @@
                         <td>{{ entry.chapter }}</td>
                         <td>{{ entry.subsection or '' }}</td>
                         <td>{{ entry.ref }}</td>
-                        <td>{{ entry.clinical_situation }}</td>
+                        <td>{{ entry.clinical_situation | safe }}</td>
                         <td>{{ entry.recommendation }}</td>
                         <td>{{ entry.source }}</td>
                         <td>{{ entry.level_of_evidence }}</td>
