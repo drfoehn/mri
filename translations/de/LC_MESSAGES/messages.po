@@ -1,0 +1,80 @@
+# German translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-21 11:45+0200\n"
+"PO-Revision-Date: 2025-06-21 11:46+0200\n"
+"Last-Translator: Gemini Assistant\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:6 templates/index.html:12
+msgid "Minimum Retesting Intervals"
+msgstr "Minimale Nachtestungsintervalle"
+
+#: templates/index.html:15 templates/index.html:64
+msgid "Section"
+msgstr "Sektion"
+
+#: templates/index.html:19
+msgid "Please select..."
+msgstr "Bitte auswählen..."
+
+#: templates/index.html:26 templates/index.html:65
+msgid "Chapter"
+msgstr "Kapitel"
+
+#: templates/index.html:31
+msgid "Please select Section first"
+msgstr "Bitte zuerst Sektion auswählen"
+
+#: templates/index.html:40 templates/index.html:66
+msgid "Subsection"
+msgstr "Unterabschnitt"
+
+#: templates/index.html:42
+msgid "Please select Chapter first"
+msgstr "Bitte zuerst Kapitel auswählen"
+
+#: templates/index.html:51 templates/index.html:68
+msgid "Clinical Situation / Test"
+msgstr "Klinische Situation / Test"
+
+#: templates/index.html:52
+msgid "Search term..."
+msgstr "Suchbegriff..."
+
+#: templates/index.html:55
+msgid "Search"
+msgstr "Suchen"
+
+#: templates/index.html:67
+msgid "Ref"
+msgstr "Ref"
+
+#: templates/index.html:69
+msgid "Recommendation"
+msgstr "Empfehlung"
+
+#: templates/index.html:70
+msgid "Source"
+msgstr "Quelle"
+
+#: templates/index.html:71
+msgid "Level of Evidence"
+msgstr "Evidenzgrad"
+
+#: templates/index.html:91
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+

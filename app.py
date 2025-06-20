@@ -1,10 +1,35 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 import json
 import os
 from markupsafe import Markup
 import re
+from flask_babel import Babel, _
 
 app = Flask(__name__)
+# IMPORTANT: Change this secret key for production!
+app.secret_key = 'a-super-secret-key-that-you-should-change'
+
+# --- Babel Configuration ---
+app.config['LANGUAGES'] = {
+    'en': 'English',
+    'de': 'German'
+}
+
+def get_locale():
+    # 1. Check for language in session (user's explicit choice)
+    if 'language' in session:
+        return session['language']
+    # 2. Use the best match from the user's browser languages.
+    return request.accept_languages.best_match(app.config['LANGUAGES'])
+
+babel = Babel(app, locale_selector=get_locale)
+
+@app.route('/set-language/<language>')
+def set_language(language=None):
+    session['language'] = language
+    # Redirect to the previous page or homepage
+    return redirect(request.referrer or url_for('index'))
+# --- End Babel Configuration ---
 
 # JSON laden
 DATA_PATH = os.path.join(os.path.dirname(__file__), 'MRI.json')
