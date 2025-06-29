@@ -9,10 +9,11 @@
 </head>
 <body>
 <div class="container py-4">
-    <div class="d-flex justify-content-end mb-2">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>{{ _('Minimum Retesting Intervals') }}</h1>
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="languageMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                {{ _('Language') }}
+                {{ _('Language') }}: {% if session.get('language') == 'de' %}Deutsch{% else %}English{% endif %}
             </button>
             <ul class="dropdown-menu" aria-labelledby="languageMenuButton">
                 <li><a class="dropdown-item" href="{{ url_for('set_language', language='en') }}">English</a></li>
@@ -20,7 +21,16 @@
             </ul>
         </div>
     </div>
-    <h1 class="mb-4">{{ _('Minimum Retesting Intervals') }}</h1>
+    
+    <div class="alert alert-info mb-4">
+        <strong>{{ _('Language') }}:</strong> 
+        {% if session.get('language') == 'de' %}
+            Deutsch - {{ _('Showing German entries only') }}
+        {% else %}
+            English - {{ _('Showing English entries only') }}
+        {% endif %}
+    </div>
+    
     <form method="post" class="row g-3 mb-4">
         <div class="col-12 col-md-3">
             <label for="section" class="form-label">{{ _('Section') }}</label>
@@ -41,7 +51,7 @@
                     hx-include="[name='chapter']">
                 <option value="">{{ _('Please select Section first') }}</option>
                 {% if selected_section %}
-                    {% for chapter in chapters if chapter in results|map(attribute='chapter')|list %}
+                    {% for chapter in chapters %}
                         <option value="{{ chapter }}" {% if chapter == selected_chapter %}selected{% endif %}>{{ chapter }}</option>
                     {% endfor %}
                 {% endif %}
@@ -52,7 +62,7 @@
             <select class="form-select" id="subsection" name="subsection" {% if not selected_chapter %}disabled{% endif %}>
                 <option value="">{{ _('Please select Chapter first') }}</option>
                 {% if selected_chapter %}
-                    {% for subsection in subsections if subsection in results|map(attribute='subsection')|list %}
+                    {% for subsection in subsections %}
                         <option value="{{ subsection }}" {% if subsection == selected_subsection %}selected{% endif %}>{{ subsection }}</option>
                     {% endfor %}
                 {% endif %}
@@ -75,24 +85,22 @@
                     <th>{{ _('Section') }}</th>
                     <th>{{ _('Chapter') }}</th>
                     <th>{{ _('Subsection') }}</th>
-                    <th>{{ _('Ref') }}</th>
+                    <th>{{ _('ID') }}</th>
                     <th>{{ _('Clinical Situation / Test') }}</th>
                     <th>{{ _('Recommendation') }}</th>
-                    <th>{{ _('Source') }}</th>
-                    <th>{{ _('Level of Evidence') }}</th>
+                    <th>{{ _('Language') }}</th>
                 </tr>
                 </thead>
                 <tbody>
                 {% for entry in results %}
                     <tr>
-                        <td>{{ entry.Section }}</td>
+                        <td>{{ entry.section }}</td>
                         <td>{{ entry.chapter }}</td>
                         <td>{{ entry.subsection or '' }}</td>
-                        <td>{{ entry.ref }}</td>
+                        <td>{{ entry.id }}</td>
                         <td>{{ entry.clinical_situation | safe }}</td>
                         <td>{{ entry.recommendation }}</td>
-                        <td>{{ entry.source }}</td>
-                        <td>{{ entry.level_of_evidence }}</td>
+                        <td>{{ entry.lang }}</td>
                     </tr>
                 {% endfor %}
                 </tbody>

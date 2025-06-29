@@ -59,22 +59,26 @@ msgid "Search"
 msgstr "Suchen"
 
 #: templates/index.html:67
-msgid "Ref"
-msgstr "Ref"
+msgid "ID"
+msgstr "ID"
 
 #: templates/index.html:69
 msgid "Recommendation"
 msgstr "Empfehlung"
 
 #: templates/index.html:70
-msgid "Source"
-msgstr "Quelle"
-
-#: templates/index.html:71
-msgid "Level of Evidence"
-msgstr "Evidenzgrad"
+msgid "Language"
+msgstr "Sprache"
 
 #: templates/index.html:91
 msgid "No results found."
 msgstr "Keine Ergebnisse gefunden."
+
+#: templates/index.html:18
+msgid "Showing German entries only"
+msgstr "Nur deutsche Einträge werden angezeigt"
+
+#: templates/index.html:20
+msgid "Showing English entries only"
+msgstr "Nur englische Einträge werden angezeigt"
 
