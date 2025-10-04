@@ -34,9 +34,8 @@ def set_language(language=None):
 # JSON laden
 DATA_PATH = os.path.join(os.path.dirname(__file__), 'MRI_en_de.json')
 with open(DATA_PATH, encoding='utf-8') as f:
-    all_data = json.load(f)
+    data = json.load(f)
 
-<<<<<<< HEAD
 # Hilfsfunktionen für Sprachfilterung
 def get_data_for_language(lang):
     """Gibt nur die Daten für die gewählte Sprache zurück"""
@@ -67,29 +66,6 @@ def index():
     sections = get_sections_for_language(current_lang)
     chapters = get_chapters_for_language(current_lang)
     subsections = get_subsections_for_language(current_lang)
-=======
-def get_filtered_data(language):
-    """Filter data by language"""
-    if language == 'de':
-        return [entry for entry in all_data if entry.get('lang') == 'de']
-    else:
-        return [entry for entry in all_data if entry.get('lang') == 'en']
-
-def get_data_for_current_language():
-    """Get data filtered by current language"""
-    current_language = get_locale()
-    return get_filtered_data(current_language)
-
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    # Get data filtered by current language
-    data = get_data_for_current_language()
-    
-    # Extract sections, chapters, and subsections from filtered data
-    sections = sorted(set(entry.get('section', '') for entry in data if entry.get('section', '')))
-    chapters = sorted(set(entry['chapter'] for entry in data if entry['chapter']))
-    subsections = sorted(set(entry['subsection'] for entry in data if entry['subsection']))
->>>>>>> 1c5181c8b76b134824310ffbfee69c8d6b62abd5
     
     results = []
     selected_section = request.form.get('section') if request.method == 'POST' else ''
@@ -97,17 +73,12 @@ def index():
     selected_subsection = request.form.get('subsection') if request.method == 'POST' else ''
     search_text = request.form.get('search_text', '').strip() if request.method == 'POST' else ''
 
-<<<<<<< HEAD
     # Bei GET-Request alle Einträge für die aktuelle Sprache anzeigen
     if request.method == 'GET':
         results = lang_data
     elif request.method == 'POST' and (selected_section or selected_chapter or selected_subsection or search_text):
         # Filterung auf die aktuelle Sprache beschränken
         filtered_results = [entry for entry in lang_data
-=======
-    if request.method == 'POST' and (selected_section or selected_chapter or selected_subsection or search_text):
-        filtered_results = [entry for entry in data
->>>>>>> 1c5181c8b76b134824310ffbfee69c8d6b62abd5
                    if (not selected_section or entry.get('section', '') == selected_section)
                    and (not selected_chapter or entry.get('chapter', '') == selected_chapter)
                    and (not selected_subsection or entry.get('subsection', '') == selected_subsection)
@@ -137,15 +108,10 @@ def index():
 @app.route('/get_chapters', methods=['POST'])
 def get_chapters():
     section = request.form.get('section', '')
-<<<<<<< HEAD
     current_lang = session.get('language', get_locale())
     lang_data = get_data_for_language(current_lang)
     
     filtered_chapters = sorted(set(entry['chapter'] for entry in lang_data if entry.get('section', '') == section and entry['chapter']))
-=======
-    data = get_data_for_current_language()
-    filtered_chapters = sorted(set(entry['chapter'] for entry in data if entry.get('section', '') == section and entry['chapter']))
->>>>>>> 1c5181c8b76b134824310ffbfee69c8d6b62abd5
     options = '<option value="">Alle</option>' + ''.join(f'<option value="{c}">{c}</option>' for c in filtered_chapters)
     select_html = f'''
     <select class="form-select" id="chapter" name="chapter"
@@ -159,15 +125,10 @@ def get_chapters():
 @app.route('/get_subsections', methods=['POST'])
 def get_subsections():
     chapter = request.form.get('chapter', '')
-<<<<<<< HEAD
     current_lang = session.get('language', get_locale())
     lang_data = get_data_for_language(current_lang)
     
     filtered_subsections = sorted(set(entry['subsection'] for entry in lang_data if entry['chapter'] == chapter and entry['subsection']))
-=======
-    data = get_data_for_current_language()
-    filtered_subsections = sorted(set(entry['subsection'] for entry in data if entry['chapter'] == chapter and entry['subsection']))
->>>>>>> 1c5181c8b76b134824310ffbfee69c8d6b62abd5
     options = '<option value="">Alle</option>' + ''.join(f'<option value="{s}">{s}</option>' for s in filtered_subsections)
     select_html = f'''
     <select class="form-select" id="subsection" name="subsection">
