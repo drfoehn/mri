@@ -137,5 +137,17 @@ def get_subsections():
     '''
     return Markup(select_html)
 
+@app.route('/references')
+def references():
+    return render_template('references.html')
+
+@app.route('/evidence_levels')
+def evidence_levels():
+    return render_template('evidence_levels.html')
+
+@app.route('/abbreviations')
+def abbreviations():
+    return render_template('abbreviations.html')
+
 if __name__ == '__main__':
     app.run(debug=True) 

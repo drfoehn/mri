@@ -46,6 +46,26 @@ msgstr "Dr Bernie Croal, Aberdeen Royal Infirmary, NHS Grampian"
 msgid "Application by Janne Cadamuro with the"
 msgstr "Anwendung von Janne Cadamuro mit dem"
 
+#: templates/index.html:19
+msgid "Search"
+msgstr "Suche"
+
+#: templates/index.html:22
+msgid "References"
+msgstr "Referenzen"
+
+#: templates/index.html:25
+msgid "Evidence Levels"
+msgstr "Evidenzgrade"
+
+#: templates/index.html:28
+msgid "Abbreviations"
+msgstr "Abkürzungen"
+
+#: templates/index.html:31
+msgid "Original PDF"
+msgstr "Original PDF"
+
 #: templates/index.html:15 templates/index.html:64
 msgid "Section"
 msgstr "Sektion"

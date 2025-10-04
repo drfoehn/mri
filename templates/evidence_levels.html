@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('Evidence Levels') }} - {{ _('Minimum Retesting Intervals') }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>{{ _('Levels of Evidence') }}</h1>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="languageMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ _('Language') }}
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageMenuButton">
+                <li><a class="dropdown-item" href="{{ url_for('set_language', language='en') }}">English</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('set_language', language='de') }}">Deutsch</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ _('Evidence Levels') }}</li>
+        </ol>
+    </nav>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">{{ _('Explanation of Evidence Levels') }}</h5>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <strong>{{ _('Source:') }}</strong> 
+                        <a href="https://www.rcpath.org/static/253e8950-3721-4aa2-8ddd4bd94f73040e/g147_national-minimum_retesting_intervals_in_pathology.pdf" 
+                           target="_blank" class="alert-link">
+                            {{ _('National minimum retesting intervals in pathology (PDF)') }}
+                        </a>
+                        <br>
+                        <small class="text-muted">{{ _('Pages 79-81') }}</small>
+                    </div>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>{{ _('Evidence Level') }}</th>
+                                    <th>{{ _('Description') }}</th>
+                                    <th>{{ _('Quality') }}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>1++</strong></td>
+                                    <td>High quality meta-analyses, systematic reviews of RCTs, or RCTs with a very low risk of bias</td>
+                                    <td><span class="badge bg-success">High</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>1+</strong></td>
+                                    <td>Well-conducted meta-analyses, systematic reviews of RCTs, or RCTs with a low risk of bias</td>
+                                    <td><span class="badge bg-success">High</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>1-</strong></td>
+                                    <td>Meta-analyses, systematic reviews of RCTs, or RCTs with a high risk of bias</td>
+                                    <td><span class="badge bg-warning">Moderate</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2++</strong></td>
+                                    <td>High quality systematic reviews of case-control or cohort studies; high quality case-control or cohort studies with a very low risk of confounding or bias and a high probability that the relationship is causal</td>
+                                    <td><span class="badge bg-info">Moderate</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2+</strong></td>
+                                    <td>Well-conducted case-control or cohort studies with a low risk of confounding or bias and a moderate probability that the relationship is causal</td>
+                                    <td><span class="badge bg-info">Moderate</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2-</strong></td>
+                                    <td>Case-control or cohort studies with a high risk of confounding or bias and a significant risk that the relationship is not causal</td>
+                                    <td><span class="badge bg-warning">Low</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>3</strong></td>
+                                    <td>Non-analytic studies (for example, case reports, case series)</td>
+                                    <td><span class="badge bg-danger">Very Low</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>4</strong></td>
+                                    <td>Expert opinion</td>
+                                    <td><span class="badge bg-secondary">Very Low</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GPP</strong></td>
+                                    <td>Good Practice Point - recommended best practice based on the clinical experience of the guideline development group</td>
+                                    <td><span class="badge bg-primary">Best Practice</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h6>{{ _('Key Points:') }}</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong>{{ _('Level 1 evidence:') }}</strong> {{ _('Randomized controlled trials (RCTs) and meta-analyses of RCTs') }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>{{ _('Level 2 evidence:') }}</strong> {{ _('Case-control and cohort studies') }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>{{ _('Level 3 evidence:') }}</strong> {{ _('Non-analytic studies such as case reports and case series') }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>{{ _('Level 4 evidence:') }}</strong> {{ _('Expert opinion and consensus statements') }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>{{ _('GPP:') }}</strong> {{ _('Good Practice Points based on clinical experience and expert consensus') }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

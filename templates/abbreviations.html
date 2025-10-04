@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('Abbreviations') }} - {{ _('Minimum Retesting Intervals') }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>{{ _('Abbreviations') }}</h1>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="languageMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ _('Language') }}
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageMenuButton">
+                <li><a class="dropdown-item" href="{{ url_for('set_language', language='en') }}">English</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('set_language', language='de') }}">Deutsch</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ _('Abbreviations') }}</li>
+        </ol>
+    </nav>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">{{ _('List of Abbreviations') }}</h5>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <strong>{{ _('Source:') }}</strong> 
+                        <a href="https://www.rcpath.org/static/253e8950-3721-4aa2-8ddd4bd94f73040e/g147_national-minimum_retesting_intervals_in_pathology.pdf" 
+                           target="_blank" class="alert-link">
+                            {{ _('National minimum retesting intervals in pathology (PDF)') }}
+                        </a>
+                        <br>
+                        <small class="text-muted">{{ _('Page 4') }}</small>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-primary">{{ _('General Medical Terms') }}</h6>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr><td><strong>ACB</strong></td><td>Association of Clinical Biochemistry</td></tr>
+                                        <tr><td><strong>BSH</strong></td><td>British Society for Haematology</td></tr>
+                                        <tr><td><strong>CAP</strong></td><td>College of American Pathologists</td></tr>
+                                        <tr><td><strong>CLSI</strong></td><td>Clinical and Laboratory Standards Institute</td></tr>
+                                        <tr><td><strong>CV</strong></td><td>Coefficient of Variation</td></tr>
+                                        <tr><td><strong>EQA</strong></td><td>External Quality Assessment</td></tr>
+                                        <tr><td><strong>GPP</strong></td><td>Good Practice Point</td></tr>
+                                        <tr><td><strong>IBMS</strong></td><td>Institute of Biomedical Science</td></tr>
+                                        <tr><td><strong>IQC</strong></td><td>Internal Quality Control</td></tr>
+                                        <tr><td><strong>ISO</strong></td><td>International Organization for Standardization</td></tr>
+                                        <tr><td><strong>LOD</strong></td><td>Limit of Detection</td></tr>
+                                        <tr><td><strong>LOQ</strong></td><td>Limit of Quantification</td></tr>
+                                        <tr><td><strong>MRI</strong></td><td>Minimum Retesting Interval</td></tr>
+                                        <tr><td><strong>NHS</strong></td><td>National Health Service</td></tr>
+                                        <tr><td><strong>NICE</strong></td><td>National Institute for Health and Care Excellence</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h6 class="text-primary">{{ _('Laboratory Tests') }}</h6>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr><td><strong>ALT</strong></td><td>Alanine Aminotransferase</td></tr>
+                                        <tr><td><strong>AST</strong></td><td>Aspartate Aminotransferase</td></tr>
+                                        <tr><td><strong>BUN</strong></td><td>Blood Urea Nitrogen</td></tr>
+                                        <tr><td><strong>CK</strong></td><td>Creatine Kinase</td></tr>
+                                        <tr><td><strong>CRP</strong></td><td>C-Reactive Protein</td></tr>
+                                        <tr><td><strong>ESR</strong></td><td>Erythrocyte Sedimentation Rate</td></tr>
+                                        <tr><td><strong>FT4</strong></td><td>Free Thyroxine</td></tr>
+                                        <tr><td><strong>HbA1c</strong></td><td>Glycated Haemoglobin</td></tr>
+                                        <tr><td><strong>HDL</strong></td><td>High-Density Lipoprotein</td></tr>
+                                        <tr><td><strong>LDL</strong></td><td>Low-Density Lipoprotein</td></tr>
+                                        <tr><td><strong>PSA</strong></td><td>Prostate Specific Antigen</td></tr>
+                                        <tr><td><strong>TSH</strong></td><td>Thyroid Stimulating Hormone</td></tr>
+                                        <tr><td><strong>U&E</strong></td><td>Urea and Electrolytes</td></tr>
+                                        <tr><td><strong>WCC</strong></td><td>White Cell Count</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h6 class="text-primary">{{ _('Evidence Levels') }}</h6>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr><td><strong>1++</strong></td><td>High quality meta-analyses, systematic reviews of RCTs</td></tr>
+                                        <tr><td><strong>1+</strong></td><td>Well-conducted meta-analyses, systematic reviews of RCTs</td></tr>
+                                        <tr><td><strong>1-</strong></td><td>Meta-analyses, systematic reviews of RCTs with high risk of bias</td></tr>
+                                        <tr><td><strong>2++</strong></td><td>High quality case-control or cohort studies</td></tr>
+                                        <tr><td><strong>2+</strong></td><td>Well-conducted case-control or cohort studies</td></tr>
+                                        <tr><td><strong>2-</strong></td><td>Case-control or cohort studies with high risk of bias</td></tr>
+                                        <tr><td><strong>3</strong></td><td>Non-analytic studies (case reports, case series)</td></tr>
+                                        <tr><td><strong>4</strong></td><td>Expert opinion</td></tr>
+                                        <tr><td><strong>GPP</strong></td><td>Good Practice Point</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h6 class="text-primary">{{ _('Organizations') }}</h6>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr><td><strong>ACB</strong></td><td>Association of Clinical Biochemistry</td></tr>
+                                        <tr><td><strong>BSH</strong></td><td>British Society for Haematology</td></tr>
+                                        <tr><td><strong>IBMS</strong></td><td>Institute of Biomedical Science</td></tr>
+                                        <tr><td><strong>NHS</strong></td><td>National Health Service</td></tr>
+                                        <tr><td><strong>NICE</strong></td><td>National Institute for Health and Care Excellence</td></tr>
+                                        <tr><td><strong>RCPath</strong></td><td>Royal College of Pathologists</td></tr>
+                                        <tr><td><strong>UKAS</strong></td><td>United Kingdom Accreditation Service</td></tr>
+                                        <tr><td><strong>WHO</strong></td><td>World Health Organization</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
