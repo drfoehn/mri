@@ -32,28 +32,54 @@ def set_language(language=None):
 # --- End Babel Configuration ---
 
 # JSON laden
-DATA_PATH = os.path.join(os.path.dirname(__file__), 'MRI.json')
+DATA_PATH = os.path.join(os.path.dirname(__file__), 'MRI_en_de.json')
 with open(DATA_PATH, encoding='utf-8') as f:
     data = json.load(f)
 
-# Kapitel und Subsections extrahieren
-chapters = sorted(set(entry['chapter'] for entry in data if entry['chapter']))
-subsections = sorted(set(entry['subsection'] for entry in data if entry['subsection']))
+# Hilfsfunktionen für Sprachfilterung
+def get_data_for_language(lang):
+    """Gibt nur die Daten für die gewählte Sprache zurück"""
+    return [entry for entry in data if entry.get('lang') == lang]
 
-# Section-Liste extrahieren
-sections = sorted(set(entry.get('Section', '') for entry in data if entry.get('Section', '')))
+def get_sections_for_language(lang):
+    """Gibt die Sections für die gewählte Sprache zurück"""
+    lang_data = get_data_for_language(lang)
+    return sorted(set(entry.get('section', '') for entry in lang_data if entry.get('section', '')))
+
+def get_chapters_for_language(lang):
+    """Gibt die Chapters für die gewählte Sprache zurück"""
+    lang_data = get_data_for_language(lang)
+    return sorted(set(entry['chapter'] for entry in lang_data if entry['chapter']))
+
+def get_subsections_for_language(lang):
+    """Gibt die Subsections für die gewählte Sprache zurück"""
+    lang_data = get_data_for_language(lang)
+    return sorted(set(entry['subsection'] for entry in lang_data if entry['subsection']))
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    # Aktuelle Sprache aus Session oder Browser-Präferenz
+    current_lang = session.get('language', get_locale())
+    
+    # Daten für die aktuelle Sprache laden
+    lang_data = get_data_for_language(current_lang)
+    sections = get_sections_for_language(current_lang)
+    chapters = get_chapters_for_language(current_lang)
+    subsections = get_subsections_for_language(current_lang)
+    
     results = []
     selected_section = request.form.get('section') if request.method == 'POST' else ''
     selected_chapter = request.form.get('chapter') if request.method == 'POST' else ''
     selected_subsection = request.form.get('subsection') if request.method == 'POST' else ''
     search_text = request.form.get('search_text', '').strip() if request.method == 'POST' else ''
 
-    if request.method == 'POST' and (selected_section or selected_chapter or selected_subsection or search_text):
-        filtered_results = [entry for entry in data
-                   if (not selected_section or entry.get('Section', '') == selected_section)
+    # Bei GET-Request alle Einträge für die aktuelle Sprache anzeigen
+    if request.method == 'GET':
+        results = lang_data
+    elif request.method == 'POST' and (selected_section or selected_chapter or selected_subsection or search_text):
+        # Filterung auf die aktuelle Sprache beschränken
+        filtered_results = [entry for entry in lang_data
+                   if (not selected_section or entry.get('section', '') == selected_section)
                    and (not selected_chapter or entry.get('chapter', '') == selected_chapter)
                    and (not selected_subsection or entry.get('subsection', '') == selected_subsection)
                    and (not search_text or re.search(search_text, entry['clinical_situation'], re.IGNORECASE))]
@@ -76,12 +102,16 @@ def index():
                            selected_section=selected_section,
                            selected_chapter=selected_chapter,
                            selected_subsection=selected_subsection,
-                           search_text=search_text)
+                           search_text=search_text,
+                           current_lang=current_lang)
 
 @app.route('/get_chapters', methods=['POST'])
 def get_chapters():
     section = request.form.get('section', '')
-    filtered_chapters = sorted(set(entry['chapter'] for entry in data if entry.get('Section', '') == section and entry['chapter']))
+    current_lang = session.get('language', get_locale())
+    lang_data = get_data_for_language(current_lang)
+    
+    filtered_chapters = sorted(set(entry['chapter'] for entry in lang_data if entry.get('section', '') == section and entry['chapter']))
     options = '<option value="">Alle</option>' + ''.join(f'<option value="{c}">{c}</option>' for c in filtered_chapters)
     select_html = f'''
     <select class="form-select" id="chapter" name="chapter"
@@ -95,7 +125,10 @@ def get_chapters():
 @app.route('/get_subsections', methods=['POST'])
 def get_subsections():
     chapter = request.form.get('chapter', '')
-    filtered_subsections = sorted(set(entry['subsection'] for entry in data if entry['chapter'] == chapter and entry['subsection']))
+    current_lang = session.get('language', get_locale())
+    lang_data = get_data_for_language(current_lang)
+    
+    filtered_subsections = sorted(set(entry['subsection'] for entry in lang_data if entry['chapter'] == chapter and entry['subsection']))
     options = '<option value="">Alle</option>' + ''.join(f'<option value="{s}">{s}</option>' for s in filtered_subsections)
     select_html = f'''
     <select class="form-select" id="subsection" name="subsection">

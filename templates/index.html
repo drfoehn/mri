@@ -20,7 +20,38 @@
             </ul>
         </div>
     </div>
-    <h1 class="mb-4">{{ _('Minimum Retesting Intervals') }}</h1>
+    <!-- Header Section -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="text-center">
+                <!-- Organization Logos -->
+                <div class="d-flex justify-content-center align-items-center mb-3 flex-wrap gap-3">
+                    <img src="{{ url_for('static', filename='images/IBMS_logo.jpg') }}" alt="IBMS Logo" class="img-fluid" style="max-height: 60px;">
+                    <img src="{{ url_for('static', filename='images/Royal-college-of-Pathologists-Logo.jpg') }}" alt="Royal College of Pathologists Logo" class="img-fluid" style="max-height: 60px;">
+                    <img src="{{ url_for('static', filename='images/assoc_logo.svg') }}" alt="Association Logo" class="img-fluid" style="max-height: 60px;">
+                </div>
+                
+                <!-- Main Title -->
+                <h1 class="mb-2">{{ _('National minimum retesting intervals in pathology') }}</h1>
+                <h5 class="text-muted mb-3">{{ _('Version: March 2021') }}</h5>
+                
+                <!-- Authors -->
+                <div class="mb-3">
+                    <p class="mb-1"><strong>{{ _('Authors:') }}</strong></p>
+                    <p class="mb-0">{{ _('Dr Tim Lang, County Durham and Darlington NHS Foundation Trust') }}</p>
+                    <p class="mb-0">{{ _('Dr Bernie Croal, Aberdeen Royal Infirmary, NHS Grampian') }}</p>
+                </div>
+                
+                <!-- Application Info -->
+                <div class="d-flex justify-content-center align-items-center gap-3">
+                    <span class="text-muted">{{ _('Application by Janne Cadamuro with the') }}</span>
+                    <a href="https://labmedalliance.com" target="_blank">
+                        <img src="{{ url_for('static', filename='images/lma logo.jpg') }}" alt="LabMed Alliance Logo" class="img-fluid" style="max-height: 80px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <form method="post" class="row g-3 mb-4">
         <div class="col-12 col-md-3">
             <label for="section" class="form-label">{{ _('Section') }}</label>
@@ -41,7 +72,7 @@
                     hx-include="[name='chapter']">
                 <option value="">{{ _('Please select Section first') }}</option>
                 {% if selected_section %}
-                    {% for chapter in chapters if chapter in results|map(attribute='chapter')|list %}
+                    {% for chapter in chapters %}
                         <option value="{{ chapter }}" {% if chapter == selected_chapter %}selected{% endif %}>{{ chapter }}</option>
                     {% endfor %}
                 {% endif %}
@@ -52,7 +83,7 @@
             <select class="form-select" id="subsection" name="subsection" {% if not selected_chapter %}disabled{% endif %}>
                 <option value="">{{ _('Please select Chapter first') }}</option>
                 {% if selected_chapter %}
-                    {% for subsection in subsections if subsection in results|map(attribute='subsection')|list %}
+                    {% for subsection in subsections %}
                         <option value="{{ subsection }}" {% if subsection == selected_subsection %}selected{% endif %}>{{ subsection }}</option>
                     {% endfor %}
                 {% endif %}
@@ -85,20 +116,20 @@
                 <tbody>
                 {% for entry in results %}
                     <tr>
-                        <td>{{ entry.Section }}</td>
+                        <td>{{ entry.section }}</td>
                         <td>{{ entry.chapter }}</td>
                         <td>{{ entry.subsection or '' }}</td>
-                        <td>{{ entry.ref }}</td>
+                        <td>{{ entry.ref or '' }}</td>
                         <td>{{ entry.clinical_situation | safe }}</td>
                         <td>{{ entry.recommendation }}</td>
-                        <td>{{ entry.source }}</td>
-                        <td>{{ entry.level_of_evidence }}</td>
+                        <td>{{ entry.source or '' }}</td>
+                        <td>{{ entry.level_of_evidence or '' }}</td>
                     </tr>
                 {% endfor %}
                 </tbody>
             </table>
         </div>
-    {% elif request.method == 'POST' %}
+    {% elif request.method == 'POST' and not results %}
         <div class="alert alert-warning">{{ _('No results found.') }}</div>
     {% endif %}
 </div>

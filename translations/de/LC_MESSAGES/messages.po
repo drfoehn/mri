@@ -22,6 +22,30 @@ msgstr ""
 msgid "Minimum Retesting Intervals"
 msgstr "Minimale Nachtestungsintervalle"
 
+#: templates/index.html:35
+msgid "National minimum retesting intervals in pathology"
+msgstr "Nationale minimale Nachtestungsintervalle in der Pathologie"
+
+#: templates/index.html:36
+msgid "Version: March 2021"
+msgstr "Version: März 2021"
+
+#: templates/index.html:40
+msgid "Authors:"
+msgstr "Autoren:"
+
+#: templates/index.html:41
+msgid "Dr Tim Lang, County Durham and Darlington NHS Foundation Trust"
+msgstr "Dr Tim Lang, County Durham and Darlington NHS Foundation Trust"
+
+#: templates/index.html:42
+msgid "Dr Bernie Croal, Aberdeen Royal Infirmary, NHS Grampian"
+msgstr "Dr Bernie Croal, Aberdeen Royal Infirmary, NHS Grampian"
+
+#: templates/index.html:47
+msgid "Application by Janne Cadamuro with the"
+msgstr "Anwendung von Janne Cadamuro mit dem"
+
 #: templates/index.html:15 templates/index.html:64
 msgid "Section"
 msgstr "Sektion"
