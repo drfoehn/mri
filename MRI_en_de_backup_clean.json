@@ -35,7 +35,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R3",
-        "source": "GAIN, <a href=\"/references#ref-2010\" target=\"_blank\" class=\"reference-link\">2010.6<sup>ref</sup></a>",
+        "source": "GAIN, 2010.6",
         "level_of_evidence": "D"
     },
     {
@@ -48,7 +48,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R4",
-        "source": "GAIN, <a href=\"/references#ref-2010\" target=\"_blank\" class=\"reference-link\">2010.6<sup>ref</sup></a>",
+        "source": "GAIN, 2010.6",
         "level_of_evidence": "D"
     },
     {
@@ -61,7 +61,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R5",
-        "source": "The Renal Association, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.7<sup>ref</sup></a>",
+        "source": "The Renal Association, 2011.7",
         "level_of_evidence": "A"
     },
     {
@@ -74,7 +74,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R6",
-        "source": "NICE Clinical Knowledge Summary, 2019.8 GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.9<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.8 GAIN, 2015.9",
         "level_of_evidence": "D"
     },
     {
@@ -87,7 +87,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R7",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.8<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.8",
         "level_of_evidence": "D"
     },
     {
@@ -100,7 +100,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R8",
-        "source": "NICE Clinical Knowledge Summary, 2019.10 NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.11<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.10 NICE Clinical Knowledge Summary, 2019.11",
         "level_of_evidence": "D"
     },
     {
@@ -113,7 +113,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R9",
-        "source": "National Public Health Service for Wales, <a href=\"/references#ref-2008\" target=\"_blank\" class=\"reference-link\">2008.12<sup>ref</sup></a>",
+        "source": "National Public Health Service for Wales, 2008.12",
         "level_of_evidence": "D"
     },
     {
@@ -126,7 +126,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R10",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.13<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.13",
         "level_of_evidence": "D"
     },
     {
@@ -139,7 +139,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R11",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.13<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.13",
         "level_of_evidence": "D"
     },
     {
@@ -152,7 +152,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-R12",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.14<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.14",
         "level_of_evidence": "D"
     },
     {
@@ -321,7 +321,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-B9",
-        "source": "The Renal Association, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.20<sup>ref</sup></a>",
+        "source": "The Renal Association, 2015.20",
         "level_of_evidence": "GPP"
     },
     {
@@ -334,7 +334,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-L1",
-        "source": "Smellie S et al. ACB Venture Publications, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.21<sup>ref</sup></a>",
+        "source": "Smellie S et al. ACB Venture Publications, 2011.21",
         "level_of_evidence": "D"
     },
     {
@@ -399,7 +399,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-L6",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.22<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.22",
         "level_of_evidence": "C"
     },
     {
@@ -412,7 +412,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-LP1",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -438,7 +438,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-LP3",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.22<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.22",
         "level_of_evidence": "B"
     },
     {
@@ -516,7 +516,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E4",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -529,7 +529,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E5",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -542,7 +542,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E6",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -555,7 +555,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E7",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -568,7 +568,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E8",
-        "source": "British Thyroid Association, Royal College of Physicians, <a href=\"/references#ref-2014\" target=\"_blank\" class=\"reference-link\">2014.26<sup>ref</sup></a>",
+        "source": "British Thyroid Association, Royal College of Physicians, 2014.26",
         "level_of_evidence": "C"
     },
     {
@@ -594,7 +594,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E10",
-        "source": "British Thyroid Association, Royal College of Physicians, <a href=\"/references#ref-2014\" target=\"_blank\" class=\"reference-link\">2014.26<sup>ref</sup></a>",
+        "source": "British Thyroid Association, Royal College of Physicians, 2014.26",
         "level_of_evidence": "C"
     },
     {
@@ -607,7 +607,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E11",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -620,7 +620,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E12",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -633,7 +633,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E13",
-        "source": "NICE. CG156, <a href=\"/references#ref-2013\" target=\"_blank\" class=\"reference-link\">2013.28<sup>ref</sup></a>",
+        "source": "NICE. CG156, 2013.28",
         "level_of_evidence": "D"
     },
     {
@@ -646,7 +646,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E14",
-        "source": "NICE NG23 <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.29<sup>ref</sup></a>",
+        "source": "NICE NG23 2019.29",
         "level_of_evidence": "A"
     },
     {
@@ -698,7 +698,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E18",
-        "source": "WHO, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.33<sup>ref</sup></a>",
+        "source": "WHO, 2011.33",
         "level_of_evidence": "B"
     },
     {
@@ -711,7 +711,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E19",
-        "source": "NICE. NG28, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.34<sup>ref</sup></a>",
+        "source": "NICE. NG28, 2015.34",
         "level_of_evidence": "B"
     },
     {
@@ -724,7 +724,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E20",
-        "source": "Bhasin S et al. J Clin Endocrinol Metab 2010;95:2536– <a href=\"/references#ref-2559\" target=\"_blank\" class=\"reference-link\">2559.35<sup>ref</sup></a>",
+        "source": "Bhasin S et al. J Clin Endocrinol Metab 2010;95:2536– 2559.35",
         "level_of_evidence": "D"
     },
     {
@@ -789,7 +789,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-E25",
-        "source": "Growth Hormone Research Society, Pituitary Society. J Clin Endocrinol Metab 2004;89:3099– <a href=\"/references#ref-3102\" target=\"_blank\" class=\"reference-link\">3102.39<sup>ref</sup></a>",
+        "source": "Growth Hormone Research Society, Pituitary Society. J Clin Endocrinol Metab 2004;89:3099– 3102.39",
         "level_of_evidence": "D"
     },
     {
@@ -815,7 +815,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-C2",
-        "source": "NICE. CG108, 2010.46 NICE. CG187, 2014.47 NICE. NG106, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.48<sup>ref</sup></a>",
+        "source": "NICE. CG108, 2010.46 NICE. CG187, 2014.47 NICE. NG106, 2018.48",
         "level_of_evidence": "A"
     },
     {
@@ -828,7 +828,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G1",
-        "source": "Wolters Kluwer, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.49<sup>ref</sup></a>",
+        "source": "Wolters Kluwer, 2019.49",
         "level_of_evidence": "D"
     },
     {
@@ -867,7 +867,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G4",
-        "source": "NICE.CG32, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.53<sup>ref</sup></a>",
+        "source": "NICE.CG32, 2006.53",
         "level_of_evidence": "A"
     },
     {
@@ -880,7 +880,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G5",
-        "source": "European Association for the Study of the Liver. J Hepatol 2010;53:3– 22.54 British Society for Haematology, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.55<sup>ref</sup></a>",
+        "source": "European Association for the Study of the Liver. J Hepatol 2010;53:3– 22.54 British Society for Haematology, 2018.55",
         "level_of_evidence": "B"
     },
     {
@@ -893,7 +893,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G7",
-        "source": "GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.57<sup>ref</sup></a>",
+        "source": "GAIN, 2015.57",
         "level_of_evidence": "D"
     },
     {
@@ -906,7 +906,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G7",
-        "source": "GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.57<sup>ref</sup></a>",
+        "source": "GAIN, 2015.57",
         "level_of_evidence": "D"
     },
     {
@@ -919,7 +919,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G8",
-        "source": "NICE. NG8, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.58<sup>ref</sup></a>",
+        "source": "NICE. NG8, 2015.58",
         "level_of_evidence": "A"
     },
     {
@@ -945,7 +945,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-G10",
-        "source": "Clinical Knowledge Summary, 2019.60 GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.57<sup>ref</sup></a>",
+        "source": "Clinical Knowledge Summary, 2019.60 GAIN, 2015.57",
         "level_of_evidence": "D"
     },
     {
@@ -958,7 +958,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-SP1",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -971,7 +971,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-SP2",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -1101,7 +1101,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TM4",
-        "source": "NICE. CG122, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.67<sup>ref</sup></a>",
+        "source": "NICE. CG122, 2011.67",
         "level_of_evidence": "A"
     },
     {
@@ -1140,7 +1140,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TM7",
-        "source": "Public Health England, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.68<sup>ref</sup></a>",
+        "source": "Public Health England, 2019.68",
         "level_of_evidence": "D"
     },
     {
@@ -1179,7 +1179,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TM12",
-        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– <a href=\"/references#ref-1939\" target=\"_blank\" class=\"reference-link\">1939.72<sup>ref</sup></a>",
+        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– 1939.72",
         "level_of_evidence": "A"
     },
     {
@@ -1192,7 +1192,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TM12",
-        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– <a href=\"/references#ref-1939\" target=\"_blank\" class=\"reference-link\">1939.72<sup>ref</sup></a>",
+        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– 1939.72",
         "level_of_evidence": "A"
     },
     {
@@ -1205,7 +1205,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TM12",
-        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– <a href=\"/references#ref-1939\" target=\"_blank\" class=\"reference-link\">1939.72<sup>ref</sup></a>",
+        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– 1939.72",
         "level_of_evidence": "A"
     },
     {
@@ -1257,7 +1257,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TD4",
-        "source": "Baker R et al. The Renal Association, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.74<sup>ref</sup></a>",
+        "source": "Baker R et al. The Renal Association, 2011.74",
         "level_of_evidence": "C"
     },
     {
@@ -1296,7 +1296,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-TD7",
-        "source": "Joint Formulary Committee. British National Formulary (77th edition), <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.76<sup>ref</sup></a>",
+        "source": "Joint Formulary Committee. British National Formulary (77th edition), 2019.76",
         "level_of_evidence": "GPP"
     },
     {
@@ -1322,7 +1322,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-O1",
-        "source": "Health and Safety Executive Books, <a href=\"/references#ref-2002\" target=\"_blank\" class=\"reference-link\">2002.77<sup>ref</sup></a>",
+        "source": "Health and Safety Executive Books, 2002.77",
         "level_of_evidence": "D"
     },
     {
@@ -1452,7 +1452,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P3",
-        "source": "NICE. NG126, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.79<sup>ref</sup></a>",
+        "source": "NICE. NG126, 2019.79",
         "level_of_evidence": "C"
     },
     {
@@ -1465,7 +1465,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P4",
-        "source": "Bidart JM et al. Clin Chem 1999;45:1695– <a href=\"/references#ref-1707\" target=\"_blank\" class=\"reference-link\">1707.71<sup>ref</sup></a>",
+        "source": "Bidart JM et al. Clin Chem 1999;45:1695– 1707.71",
         "level_of_evidence": "C"
     },
     {
@@ -1478,7 +1478,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P5",
-        "source": "RCOG. Obstetric Cholestasis: Green- top Guideline No 43, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.80<sup>ref</sup></a>",
+        "source": "RCOG. Obstetric Cholestasis: Green- top Guideline No 43, 2011.80",
         "level_of_evidence": "D"
     },
     {
@@ -1517,7 +1517,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P8",
-        "source": "NICE. CG62, 2008.81 NICE. NG133, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.82<sup>ref</sup></a>",
+        "source": "NICE. CG62, 2008.81 NICE. NG133, 2019.82",
         "level_of_evidence": "B"
     },
     {
@@ -1530,7 +1530,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P9",
-        "source": "RCOG. Green-top Guideline No 10A, 2006.83 NICE. NG133, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.82<sup>ref</sup></a>",
+        "source": "RCOG. Green-top Guideline No 10A, 2006.83 NICE. NG133, 2019.82",
         "level_of_evidence": "B"
     },
     {
@@ -1543,7 +1543,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P10",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "C"
     },
     {
@@ -1556,7 +1556,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P11",
-        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– <a href=\"/references#ref-1125\" target=\"_blank\" class=\"reference-link\">1125.84<sup>ref</sup></a>",
+        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– 1125.84",
         "level_of_evidence": "C"
     },
     {
@@ -1569,7 +1569,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P12",
-        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– <a href=\"/references#ref-1125\" target=\"_blank\" class=\"reference-link\">1125.84<sup>ref</sup></a>",
+        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– 1125.84",
         "level_of_evidence": "C"
     },
     {
@@ -1582,7 +1582,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P13",
-        "source": "NICE. NG3, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.85<sup>ref</sup></a>",
+        "source": "NICE. NG3, 2015.85",
         "level_of_evidence": "A"
     },
     {
@@ -1595,7 +1595,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P14",
-        "source": "NICE. NG3, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.85<sup>ref</sup></a>",
+        "source": "NICE. NG3, 2015.85",
         "level_of_evidence": "A"
     },
     {
@@ -1608,7 +1608,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P15",
-        "source": "GAIN, <a href=\"/references#ref-2017\" target=\"_blank\" class=\"reference-link\">2017.86<sup>ref</sup></a>",
+        "source": "GAIN, 2017.86",
         "level_of_evidence": "A"
     },
     {
@@ -1621,7 +1621,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-P16",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "C"
     },
     {
@@ -1634,7 +1634,7 @@
         "section": "Biochemistry",
         "subsection": null,
         "ref": "B-CH1",
-        "source": "NICE. NG18, <a href=\"/references#ref-2004\" target=\"_blank\" class=\"reference-link\">2004.87<sup>ref</sup></a>",
+        "source": "NICE. NG18, 2004.87",
         "level_of_evidence": "A"
     },
     {
@@ -1699,7 +1699,7 @@
         "section": "Haematology",
         "subsection": "FBC",
         "ref": "H-FBC4",
-        "source": "Thomas D et al. Anaesthesia 2010;65:1153– <a href=\"/references#ref-1161\" target=\"_blank\" class=\"reference-link\">1161.89<sup>ref</sup></a>",
+        "source": "Thomas D et al. Anaesthesia 2010;65:1153– 1161.89",
         "level_of_evidence": "D"
     },
     {
@@ -1712,7 +1712,7 @@
         "section": "Haematology",
         "subsection": "FBC",
         "ref": "H-FBC5",
-        "source": "BCSH, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.90<sup>ref</sup></a>",
+        "source": "BCSH, 2011.90",
         "level_of_evidence": "B"
     },
     {
@@ -1725,7 +1725,7 @@
         "section": "Haematology",
         "subsection": "FBC",
         "ref": "H-FBC6",
-        "source": "NICE. CG62, 2008.81 BCSH, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.90<sup>ref</sup></a>",
+        "source": "NICE. CG62, 2008.81 BCSH, 2011.90",
         "level_of_evidence": "A"
     },
     {
@@ -1738,7 +1738,7 @@
         "section": "Haematology",
         "subsection": "FBC",
         "ref": "H-FBC7",
-        "source": "NICE. NG133, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.82<sup>ref</sup></a>",
+        "source": "NICE. NG133, 2019.82",
         "level_of_evidence": "A"
     },
     {
@@ -1764,7 +1764,7 @@
         "section": "Haematology",
         "subsection": "FBC",
         "ref": "H-FBC9",
-        "source": "NICE. NG8, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.58<sup>ref</sup></a>",
+        "source": "NICE. NG8, 2015.58",
         "level_of_evidence": "A"
     },
     {
@@ -1803,7 +1803,7 @@
         "section": "Haematology",
         "subsection": null,
         "ref": "H-CS1",
-        "source": "Thomas D et al. Anaesthesia 2010;65:1153– <a href=\"/references#ref-1161\" target=\"_blank\" class=\"reference-link\">1161.89<sup>ref</sup></a>",
+        "source": "Thomas D et al. Anaesthesia 2010;65:1153– 1161.89",
         "level_of_evidence": "D"
     },
     {
@@ -1946,7 +1946,7 @@
         "section": "Haematology",
         "subsection": "Clauss fibrinogen assay",
         "ref": "H-CS1",
-        "source": "Thomas D et al. Anaesthesia 2010;65:1153– <a href=\"/references#ref-1161\" target=\"_blank\" class=\"reference-link\">1161.89<sup>ref</sup></a>",
+        "source": "Thomas D et al. Anaesthesia 2010;65:1153– 1161.89",
         "level_of_evidence": "D"
     },
     {
@@ -2427,7 +2427,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-17",
-        "source": "Consensus of surveyed labs NICE. NG100, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.100<sup>ref</sup></a>",
+        "source": "Consensus of surveyed labs NICE. NG100, 2018.100",
         "level_of_evidence": "GPP"
     },
     {
@@ -2934,7 +2934,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-56",
-        "source": "NICE. CG134, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.104<sup>ref</sup></a>",
+        "source": "NICE. CG134, 2011.104",
         "level_of_evidence": "D"
     },
     {
@@ -2947,7 +2947,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-57",
-        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– <a href=\"/references#ref-2309\" target=\"_blank\" class=\"reference-link\">2309.105<sup>ref</sup></a>",
+        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– 2309.105",
         "level_of_evidence": "D"
     },
     {
@@ -3012,7 +3012,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-62",
-        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– <a href=\"/references#ref-2309\" target=\"_blank\" class=\"reference-link\">2309.105<sup>ref</sup></a>",
+        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– 2309.105",
         "level_of_evidence": "D"
     },
     {
@@ -3181,7 +3181,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-75",
-        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– <a href=\"/references#ref-2309\" target=\"_blank\" class=\"reference-link\">2309.105<sup>ref</sup></a>",
+        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– 2309.105",
         "level_of_evidence": "D"
     },
     {
@@ -3194,7 +3194,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-77",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -3207,7 +3207,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-77",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -3402,7 +3402,7 @@
         "section": "Immunology",
         "subsection": null,
         "ref": "I-92",
-        "source": "Wolters Kluwer, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.49<sup>ref</sup></a>",
+        "source": "Wolters Kluwer, 2019.49",
         "level_of_evidence": "GPP"
     },
     {
@@ -4273,7 +4273,7 @@
         "section": "Microbiology",
         "subsection": null,
         "ref": "M-61",
-        "source": "Eggimann P et al. Crit Care 2011;15:1017.115 Cuenca-Estrella M et al. Clin Microbiol Infect 2012;18:S9– S18.116 Hammarström H et al. Eur J Clin Microbiol Infect Dis 2015;34:917–925.117 Schelenz S et al. Lancet Infect Dis 2015;15:461–474.113 Rautemaa- Richardson R et al. J Antimicrob Chemother 2018;73:3488– <a href=\"/references#ref-3495\" target=\"_blank\" class=\"reference-link\">3495.118<sup>ref</sup></a>",
+        "source": "Eggimann P et al. Crit Care 2011;15:1017.115 Cuenca-Estrella M et al. Clin Microbiol Infect 2012;18:S9– S18.116 Hammarström H et al. Eur J Clin Microbiol Infect Dis 2015;34:917–925.117 Schelenz S et al. Lancet Infect Dis 2015;15:461–474.113 Rautemaa- Richardson R et al. J Antimicrob Chemother 2018;73:3488– 3495.118",
         "level_of_evidence": ""
     },
     {
@@ -4286,7 +4286,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-1",
-        "source": "British HIV Association, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.119<sup>ref</sup></a>",
+        "source": "British HIV Association, 2018.119",
         "level_of_evidence": "C"
     },
     {
@@ -4299,7 +4299,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-2",
-        "source": "Public Health England, <a href=\"/references#ref-2021\" target=\"_blank\" class=\"reference-link\">2021.120<sup>ref</sup></a>",
+        "source": "Public Health England, 2021.120",
         "level_of_evidence": "D"
     },
     {
@@ -4312,7 +4312,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-3",
-        "source": "Public Health England, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.121<sup>ref</sup></a>",
+        "source": "Public Health England, 2018.121",
         "level_of_evidence": "A"
     },
     {
@@ -4325,7 +4325,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-4",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "A"
     },
     {
@@ -4338,7 +4338,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-5",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "C"
     },
     {
@@ -4351,7 +4351,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-6",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "C"
     },
     {
@@ -4364,7 +4364,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-7",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "C"
     },
     {
@@ -4377,7 +4377,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-8",
-        "source": "Department of Health, 2002.123 The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "Department of Health, 2002.123 The Renal Association, 2019.122",
         "level_of_evidence": "B"
     },
     {
@@ -4390,7 +4390,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-9",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "B"
     },
     {
@@ -4403,7 +4403,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-10",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "B"
     },
     {
@@ -4429,7 +4429,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-12",
-        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.125<sup>ref</sup></a>",
+        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, 2019.125",
         "level_of_evidence": "D"
     },
     {
@@ -4442,7 +4442,7 @@
         "section": "Virology",
         "subsection": null,
         "ref": "V-13",
-        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.125<sup>ref</sup></a>",
+        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, 2019.125",
         "level_of_evidence": "D"
     },
     {
@@ -4494,7 +4494,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E18",
-        "source": "WHO, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.33<sup>ref</sup></a>",
+        "source": "WHO, 2011.33",
         "level_of_evidence": "B"
     },
     {
@@ -4507,7 +4507,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E19",
-        "source": "NICE. NG28, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.34<sup>ref</sup></a>",
+        "source": "NICE. NG28, 2015.34",
         "level_of_evidence": "B"
     },
     {
@@ -4520,7 +4520,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E20",
-        "source": "Bhasin S et al. J Clin Endocrinol Metab 2010;95:2536– <a href=\"/references#ref-2559\" target=\"_blank\" class=\"reference-link\">2559.35<sup>ref</sup></a>",
+        "source": "Bhasin S et al. J Clin Endocrinol Metab 2010;95:2536– 2559.35",
         "level_of_evidence": "D"
     },
     {
@@ -4585,7 +4585,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E25",
-        "source": "Growth Hormone Research Society, Pituitary Society. J Clin Endocrinol Metab 2004;89:3099– <a href=\"/references#ref-3102\" target=\"_blank\" class=\"reference-link\">3102.39<sup>ref</sup></a>",
+        "source": "Growth Hormone Research Society, Pituitary Society. J Clin Endocrinol Metab 2004;89:3099– 3102.39",
         "level_of_evidence": "D"
     },
     {
@@ -4611,7 +4611,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-C2",
-        "source": "NICE. CG108, 2010.46 NICE. CG187, 2014.47 NICE. NG106, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.48<sup>ref</sup></a>",
+        "source": "NICE. CG108, 2010.46 NICE. CG187, 2014.47 NICE. NG106, 2018.48",
         "level_of_evidence": "A"
     },
     {
@@ -4637,7 +4637,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R3",
-        "source": "GAIN, <a href=\"/references#ref-2010\" target=\"_blank\" class=\"reference-link\">2010.6<sup>ref</sup></a>",
+        "source": "GAIN, 2010.6",
         "level_of_evidence": "D"
     },
     {
@@ -4650,7 +4650,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R4",
-        "source": "GAIN, <a href=\"/references#ref-2010\" target=\"_blank\" class=\"reference-link\">2010.6<sup>ref</sup></a>",
+        "source": "GAIN, 2010.6",
         "level_of_evidence": "D"
     },
     {
@@ -4663,7 +4663,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R5",
-        "source": "The Renal Association, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.7<sup>ref</sup></a>",
+        "source": "The Renal Association, 2011.7",
         "level_of_evidence": "A"
     },
     {
@@ -4676,7 +4676,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R6",
-        "source": "NICE Clinical Knowledge Summary, 2019.8 GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.9<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.8 GAIN, 2015.9",
         "level_of_evidence": "D"
     },
     {
@@ -4689,7 +4689,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R7",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.8<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.8",
         "level_of_evidence": "D"
     },
     {
@@ -4702,7 +4702,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R8",
-        "source": "NICE Clinical Knowledge Summary, 2019.10 NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.11<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.10 NICE Clinical Knowledge Summary, 2019.11",
         "level_of_evidence": "D"
     },
     {
@@ -4715,7 +4715,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R9",
-        "source": "National Public Health Service for Wales, <a href=\"/references#ref-2008\" target=\"_blank\" class=\"reference-link\">2008.12<sup>ref</sup></a>",
+        "source": "National Public Health Service for Wales, 2008.12",
         "level_of_evidence": "D"
     },
     {
@@ -4728,7 +4728,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R10",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.13<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.13",
         "level_of_evidence": "D"
     },
     {
@@ -4741,7 +4741,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R11",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.13<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.13",
         "level_of_evidence": "D"
     },
     {
@@ -4754,7 +4754,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-R12",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.14<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.14",
         "level_of_evidence": "D"
     },
     {
@@ -4923,7 +4923,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-B9",
-        "source": "The Renal Association, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.20<sup>ref</sup></a>",
+        "source": "The Renal Association, 2015.20",
         "level_of_evidence": "GPP"
     },
     {
@@ -4936,7 +4936,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-L1",
-        "source": "Smellie S et al. ACB Venture Publications, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.21<sup>ref</sup></a>",
+        "source": "Smellie S et al. ACB Venture Publications, 2011.21",
         "level_of_evidence": "D"
     },
     {
@@ -5001,7 +5001,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-L6",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.22<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.22",
         "level_of_evidence": "C"
     },
     {
@@ -5014,7 +5014,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-LP1",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -5040,7 +5040,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-LP3",
-        "source": "NICE Clinical Knowledge Summary, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.22<sup>ref</sup></a>",
+        "source": "NICE Clinical Knowledge Summary, 2019.22",
         "level_of_evidence": "B"
     },
     {
@@ -5118,7 +5118,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E4",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -5131,7 +5131,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E5",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -5144,7 +5144,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E6",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -5157,7 +5157,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E7",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -5170,7 +5170,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E8",
-        "source": "British Thyroid Association, Royal College of Physicians, <a href=\"/references#ref-2014\" target=\"_blank\" class=\"reference-link\">2014.26<sup>ref</sup></a>",
+        "source": "British Thyroid Association, Royal College of Physicians, 2014.26",
         "level_of_evidence": "C"
     },
     {
@@ -5196,7 +5196,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E10",
-        "source": "British Thyroid Association, Royal College of Physicians, <a href=\"/references#ref-2014\" target=\"_blank\" class=\"reference-link\">2014.26<sup>ref</sup></a>",
+        "source": "British Thyroid Association, Royal College of Physicians, 2014.26",
         "level_of_evidence": "C"
     },
     {
@@ -5209,7 +5209,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E11",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -5222,7 +5222,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E12",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "B"
     },
     {
@@ -5235,7 +5235,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E13",
-        "source": "NICE. CG156, <a href=\"/references#ref-2013\" target=\"_blank\" class=\"reference-link\">2013.28<sup>ref</sup></a>",
+        "source": "NICE. CG156, 2013.28",
         "level_of_evidence": "D"
     },
     {
@@ -5248,7 +5248,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-E14",
-        "source": "NICE NG23 <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.29<sup>ref</sup></a>",
+        "source": "NICE NG23 2019.29",
         "level_of_evidence": "A"
     },
     {
@@ -5287,7 +5287,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G1",
-        "source": "Wolters Kluwer, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.49<sup>ref</sup></a>",
+        "source": "Wolters Kluwer, 2019.49",
         "level_of_evidence": "D"
     },
     {
@@ -5326,7 +5326,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G4",
-        "source": "NICE.CG32, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.53<sup>ref</sup></a>",
+        "source": "NICE.CG32, 2006.53",
         "level_of_evidence": "A"
     },
     {
@@ -5339,7 +5339,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G5",
-        "source": "European Association for the Study of the Liver. J Hepatol 2010;53:3– 22.54 British Society for Haematology, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.55<sup>ref</sup></a>",
+        "source": "European Association for the Study of the Liver. J Hepatol 2010;53:3– 22.54 British Society for Haematology, 2018.55",
         "level_of_evidence": "B"
     },
     {
@@ -5352,7 +5352,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G7",
-        "source": "GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.57<sup>ref</sup></a>",
+        "source": "GAIN, 2015.57",
         "level_of_evidence": "D"
     },
     {
@@ -5365,7 +5365,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G7",
-        "source": "GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.57<sup>ref</sup></a>",
+        "source": "GAIN, 2015.57",
         "level_of_evidence": "D"
     },
     {
@@ -5378,7 +5378,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G8",
-        "source": "NICE. NG8, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.58<sup>ref</sup></a>",
+        "source": "NICE. NG8, 2015.58",
         "level_of_evidence": "A"
     },
     {
@@ -5404,7 +5404,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-G10",
-        "source": "Clinical Knowledge Summary, 2019.60 GAIN, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.57<sup>ref</sup></a>",
+        "source": "Clinical Knowledge Summary, 2019.60 GAIN, 2015.57",
         "level_of_evidence": "D"
     },
     {
@@ -5417,7 +5417,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-SP1",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -5430,7 +5430,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-SP2",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -5560,7 +5560,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TM4",
-        "source": "NICE. CG122, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.67<sup>ref</sup></a>",
+        "source": "NICE. CG122, 2011.67",
         "level_of_evidence": "A"
     },
     {
@@ -5599,7 +5599,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TM7",
-        "source": "Public Health England, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.68<sup>ref</sup></a>",
+        "source": "Public Health England, 2019.68",
         "level_of_evidence": "D"
     },
     {
@@ -5638,7 +5638,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TM12",
-        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– <a href=\"/references#ref-1939\" target=\"_blank\" class=\"reference-link\">1939.72<sup>ref</sup></a>",
+        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– 1939.72",
         "level_of_evidence": "A"
     },
     {
@@ -5651,7 +5651,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TM12",
-        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– <a href=\"/references#ref-1939\" target=\"_blank\" class=\"reference-link\">1939.72<sup>ref</sup></a>",
+        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– 1939.72",
         "level_of_evidence": "A"
     },
     {
@@ -5664,7 +5664,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TM12",
-        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– <a href=\"/references#ref-1939\" target=\"_blank\" class=\"reference-link\">1939.72<sup>ref</sup></a>",
+        "source": "Sturgeon CM et al. Clin Chem 2008;54:1935– 1939.72",
         "level_of_evidence": "A"
     },
     {
@@ -5716,7 +5716,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TD4",
-        "source": "Baker R et al. The Renal Association, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.74<sup>ref</sup></a>",
+        "source": "Baker R et al. The Renal Association, 2011.74",
         "level_of_evidence": "C"
     },
     {
@@ -5755,7 +5755,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-TD7",
-        "source": "Joint Formulary Committee. British National Formulary (77th edition), <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.76<sup>ref</sup></a>",
+        "source": "Joint Formulary Committee. British National Formulary (77th edition), 2019.76",
         "level_of_evidence": "GPP"
     },
     {
@@ -5781,7 +5781,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-O1",
-        "source": "Health and Safety Executive Books, <a href=\"/references#ref-2002\" target=\"_blank\" class=\"reference-link\">2002.77<sup>ref</sup></a>",
+        "source": "Health and Safety Executive Books, 2002.77",
         "level_of_evidence": "D"
     },
     {
@@ -5911,7 +5911,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P3",
-        "source": "NICE. NG126, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.79<sup>ref</sup></a>",
+        "source": "NICE. NG126, 2019.79",
         "level_of_evidence": "C"
     },
     {
@@ -5924,7 +5924,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P4",
-        "source": "Bidart JM et al. Clin Chem 1999;45:1695– <a href=\"/references#ref-1707\" target=\"_blank\" class=\"reference-link\">1707.71<sup>ref</sup></a>",
+        "source": "Bidart JM et al. Clin Chem 1999;45:1695– 1707.71",
         "level_of_evidence": "C"
     },
     {
@@ -5937,7 +5937,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P5",
-        "source": "RCOG. Obstetric Cholestasis: Green- top Guideline No 43, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.80<sup>ref</sup></a>",
+        "source": "RCOG. Obstetric Cholestasis: Green- top Guideline No 43, 2011.80",
         "level_of_evidence": "D"
     },
     {
@@ -5976,7 +5976,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P8",
-        "source": "NICE. CG62, 2008.81 NICE. NG133, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.82<sup>ref</sup></a>",
+        "source": "NICE. CG62, 2008.81 NICE. NG133, 2019.82",
         "level_of_evidence": "B"
     },
     {
@@ -5989,7 +5989,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P9",
-        "source": "RCOG. Green-top Guideline No 10A, 2006.83 NICE. NG133, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.82<sup>ref</sup></a>",
+        "source": "RCOG. Green-top Guideline No 10A, 2006.83 NICE. NG133, 2019.82",
         "level_of_evidence": "B"
     },
     {
@@ -6002,7 +6002,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P10",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "C"
     },
     {
@@ -6015,7 +6015,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P11",
-        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– <a href=\"/references#ref-1125\" target=\"_blank\" class=\"reference-link\">1125.84<sup>ref</sup></a>",
+        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– 1125.84",
         "level_of_evidence": "C"
     },
     {
@@ -6028,7 +6028,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P12",
-        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– <a href=\"/references#ref-1125\" target=\"_blank\" class=\"reference-link\">1125.84<sup>ref</sup></a>",
+        "source": "Stagnaro-Green A et al. Thyroid 2011;21:1081– 1125.84",
         "level_of_evidence": "C"
     },
     {
@@ -6041,7 +6041,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P13",
-        "source": "NICE. NG3, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.85<sup>ref</sup></a>",
+        "source": "NICE. NG3, 2015.85",
         "level_of_evidence": "A"
     },
     {
@@ -6054,7 +6054,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P14",
-        "source": "NICE. NG3, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.85<sup>ref</sup></a>",
+        "source": "NICE. NG3, 2015.85",
         "level_of_evidence": "A"
     },
     {
@@ -6067,7 +6067,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P15",
-        "source": "GAIN, <a href=\"/references#ref-2017\" target=\"_blank\" class=\"reference-link\">2017.86<sup>ref</sup></a>",
+        "source": "GAIN, 2017.86",
         "level_of_evidence": "A"
     },
     {
@@ -6080,7 +6080,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-P16",
-        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, <a href=\"/references#ref-2006\" target=\"_blank\" class=\"reference-link\">2006.25<sup>ref</sup></a>",
+        "source": "Association for Clinical Biochemistry, British Thyroid Association and British Thyroid Foundation, 2006.25",
         "level_of_evidence": "C"
     },
     {
@@ -6093,7 +6093,7 @@
         "section": "Biochemie",
         "subsection": null,
         "ref": "B-CH1",
-        "source": "NICE. NG18, <a href=\"/references#ref-2004\" target=\"_blank\" class=\"reference-link\">2004.87<sup>ref</sup></a>",
+        "source": "NICE. NG18, 2004.87",
         "level_of_evidence": "A"
     },
     {
@@ -6158,7 +6158,7 @@
         "section": "Hämatologie",
         "subsection": "FBC",
         "ref": "H-FBC4",
-        "source": "Thomas D et al. Anaesthesia 2010;65:1153– <a href=\"/references#ref-1161\" target=\"_blank\" class=\"reference-link\">1161.89<sup>ref</sup></a>",
+        "source": "Thomas D et al. Anaesthesia 2010;65:1153– 1161.89",
         "level_of_evidence": "D"
     },
     {
@@ -6171,7 +6171,7 @@
         "section": "Hämatologie",
         "subsection": "FBC",
         "ref": "H-FBC5",
-        "source": "BCSH, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.90<sup>ref</sup></a>",
+        "source": "BCSH, 2011.90",
         "level_of_evidence": "B"
     },
     {
@@ -6184,7 +6184,7 @@
         "section": "Hämatologie",
         "subsection": "FBC",
         "ref": "H-FBC6",
-        "source": "NICE. CG62, 2008.81 BCSH, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.90<sup>ref</sup></a>",
+        "source": "NICE. CG62, 2008.81 BCSH, 2011.90",
         "level_of_evidence": "A"
     },
     {
@@ -6197,7 +6197,7 @@
         "section": "Hämatologie",
         "subsection": "FBC",
         "ref": "H-FBC7",
-        "source": "NICE. NG133, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.82<sup>ref</sup></a>",
+        "source": "NICE. NG133, 2019.82",
         "level_of_evidence": "A"
     },
     {
@@ -6223,7 +6223,7 @@
         "section": "Hämatologie",
         "subsection": "FBC",
         "ref": "H-FBC9",
-        "source": "NICE. NG8, <a href=\"/references#ref-2015\" target=\"_blank\" class=\"reference-link\">2015.58<sup>ref</sup></a>",
+        "source": "NICE. NG8, 2015.58",
         "level_of_evidence": "A"
     },
     {
@@ -6262,7 +6262,7 @@
         "section": "Hämatologie",
         "subsection": null,
         "ref": "H-CS1",
-        "source": "Thomas D et al. Anaesthesia 2010;65:1153– <a href=\"/references#ref-1161\" target=\"_blank\" class=\"reference-link\">1161.89<sup>ref</sup></a>",
+        "source": "Thomas D et al. Anaesthesia 2010;65:1153– 1161.89",
         "level_of_evidence": "D"
     },
     {
@@ -6405,7 +6405,7 @@
         "section": "Hämatologie",
         "subsection": "Clauss-Fibrinogen-Assay",
         "ref": "H-CS1",
-        "source": "Thomas D et al. Anaesthesia 2010;65:1153– <a href=\"/references#ref-1161\" target=\"_blank\" class=\"reference-link\">1161.89<sup>ref</sup></a>",
+        "source": "Thomas D et al. Anaesthesia 2010;65:1153– 1161.89",
         "level_of_evidence": "D"
     },
     {
@@ -6756,7 +6756,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-17",
-        "source": "Consensus of surveyed labs NICE. NG100, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.100<sup>ref</sup></a>",
+        "source": "Consensus of surveyed labs NICE. NG100, 2018.100",
         "level_of_evidence": "GPP"
     },
     {
@@ -7393,7 +7393,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-56",
-        "source": "NICE. CG134, <a href=\"/references#ref-2011\" target=\"_blank\" class=\"reference-link\">2011.104<sup>ref</sup></a>",
+        "source": "NICE. CG134, 2011.104",
         "level_of_evidence": "D"
     },
     {
@@ -7406,7 +7406,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-57",
-        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– <a href=\"/references#ref-2309\" target=\"_blank\" class=\"reference-link\">2309.105<sup>ref</sup></a>",
+        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– 2309.105",
         "level_of_evidence": "D"
     },
     {
@@ -7471,7 +7471,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-62",
-        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– <a href=\"/references#ref-2309\" target=\"_blank\" class=\"reference-link\">2309.105<sup>ref</sup></a>",
+        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– 2309.105",
         "level_of_evidence": "D"
     },
     {
@@ -7640,7 +7640,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-75",
-        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– <a href=\"/references#ref-2309\" target=\"_blank\" class=\"reference-link\">2309.105<sup>ref</sup></a>",
+        "source": "Ntatsaki E et al. Rheumatology 2014;53:2306– 2309.105",
         "level_of_evidence": "D"
     },
     {
@@ -7653,7 +7653,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-77",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -7666,7 +7666,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-77",
-        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– <a href=\"/references#ref-1024\" target=\"_blank\" class=\"reference-link\">1024.23<sup>ref</sup></a>",
+        "source": "Smellie WS et al. J Clin Pathol 2005;58:1016– 1024.23",
         "level_of_evidence": "D"
     },
     {
@@ -7861,7 +7861,7 @@
         "section": "Immunologie",
         "subsection": null,
         "ref": "I-92",
-        "source": "Wolters Kluwer, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.49<sup>ref</sup></a>",
+        "source": "Wolters Kluwer, 2019.49",
         "level_of_evidence": "GPP"
     },
     {
@@ -8732,7 +8732,7 @@
         "section": "Mikrobiologie",
         "subsection": null,
         "ref": "M-61",
-        "source": "Eggimann P et al. Crit Care 2011;15:1017.115 Cuenca-Estrella M et al. Clin Microbiol Infect 2012;18:S9– S18.116 Hammarström H et al. Eur J Clin Microbiol Infect Dis 2015;34:917–925.117 Schelenz S et al. Lancet Infect Dis 2015;15:461–474.113 Rautemaa- Richardson R et al. J Antimicrob Chemother 2018;73:3488– <a href=\"/references#ref-3495\" target=\"_blank\" class=\"reference-link\">3495.118<sup>ref</sup></a>",
+        "source": "Eggimann P et al. Crit Care 2011;15:1017.115 Cuenca-Estrella M et al. Clin Microbiol Infect 2012;18:S9– S18.116 Hammarström H et al. Eur J Clin Microbiol Infect Dis 2015;34:917–925.117 Schelenz S et al. Lancet Infect Dis 2015;15:461–474.113 Rautemaa- Richardson R et al. J Antimicrob Chemother 2018;73:3488– 3495.118",
         "level_of_evidence": ""
     },
     {
@@ -8745,7 +8745,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-1",
-        "source": "British HIV Association, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.119<sup>ref</sup></a>",
+        "source": "British HIV Association, 2018.119",
         "level_of_evidence": "C"
     },
     {
@@ -8758,7 +8758,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-2",
-        "source": "Public Health England, <a href=\"/references#ref-2021\" target=\"_blank\" class=\"reference-link\">2021.120<sup>ref</sup></a>",
+        "source": "Public Health England, 2021.120",
         "level_of_evidence": "D"
     },
     {
@@ -8771,7 +8771,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-3",
-        "source": "Public Health England, <a href=\"/references#ref-2018\" target=\"_blank\" class=\"reference-link\">2018.121<sup>ref</sup></a>",
+        "source": "Public Health England, 2018.121",
         "level_of_evidence": "A"
     },
     {
@@ -8784,7 +8784,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-4",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "A"
     },
     {
@@ -8797,7 +8797,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-5",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "C"
     },
     {
@@ -8810,7 +8810,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-6",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "C"
     },
     {
@@ -8823,7 +8823,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-7",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "C"
     },
     {
@@ -8836,7 +8836,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-8",
-        "source": "Department of Health, 2002.123 The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "Department of Health, 2002.123 The Renal Association, 2019.122",
         "level_of_evidence": "B"
     },
     {
@@ -8849,7 +8849,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-9",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "B"
     },
     {
@@ -8862,7 +8862,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-10",
-        "source": "The Renal Association, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.122<sup>ref</sup></a>",
+        "source": "The Renal Association, 2019.122",
         "level_of_evidence": "B"
     },
     {
@@ -8888,7 +8888,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-12",
-        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.125<sup>ref</sup></a>",
+        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, 2019.125",
         "level_of_evidence": "D"
     },
     {
@@ -8901,7 +8901,7 @@
         "section": "Virologie",
         "subsection": null,
         "ref": "V-13",
-        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, <a href=\"/references#ref-2019\" target=\"_blank\" class=\"reference-link\">2019.125<sup>ref</sup></a>",
+        "source": "Department of Health and Social Care, 2008.124 BASHH guidelines, 2019.125",
         "level_of_evidence": "D"
     },
     {
