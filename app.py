@@ -94,6 +94,11 @@ def index():
         else:
             results = filtered_results
 
+    # Mark HTML in source field as safe
+    for entry in results:
+        if 'source' in entry and entry['source']:
+            entry['source'] = Markup(entry['source'])
+    
     return render_template('index.html',
                            sections=sections,
                            chapters=chapters,
